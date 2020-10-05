@@ -1,5 +1,9 @@
 package patterns.observer;
 
+import patterns.observer.observable.WeatherData;
+import patterns.observer.observers.AppleWeatherObserver;
+import patterns.observer.observers.MeteoProgObserver;
+
 public class WeatherStation {
 
     public static void main(String[] args) {
